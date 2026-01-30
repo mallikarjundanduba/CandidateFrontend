@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
+    "build": "npx --yes webpack --mode production"
   },
   "dependencies": {
     "@codemirror/lang-cpp": "^6.0.3",

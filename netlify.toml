@@ -1,11 +1,12 @@
 [build]
-  command = "npm run build"
+  command = "npm install && npm run build"
   publish = "dist"
   # Branch is configured in Netlify UI: Site settings → Build & deploy → Branch to deploy
   # Ensure it is set to exactly "main" (no trailing braces or extra characters)
 
 [build.environment]
   NPM_CONFIG_PRODUCTION = "false"
+  NODE_VERSION = "18"
 
 # SPA fallback: serve index.html for all routes so client-side router works.
 # Without this, direct visits or refreshes on /login, /dashboard, /assessment/*, etc. return 404.
