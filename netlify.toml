@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NPM_FLAGS = "--include=dev"
+  NPM_CONFIG_PRODUCTION = "false"
 
 # SPA fallback: serve index.html for all routes so client-side router works.
 # Without this, direct visits or refreshes on /login, /dashboard, /assessment/*, etc. return 404.
