@@ -1,0 +1,9 @@
+export const STEPS = {
+  EMAIL: "EMAIL",
+  PASSWORD: "PASSWORD",
+  OTP: "OTP",
+  REGISTRATION: "REGISTRATION",
+  PAYMENT: "PAYMENT",
+  DONE: "DONE"
+};
+
