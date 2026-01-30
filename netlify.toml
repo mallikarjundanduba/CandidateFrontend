@@ -1,6 +1,8 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  # Branch is configured in Netlify UI: Site settings → Build & deploy → Branch to deploy
+  # Ensure it is set to exactly "main" (no trailing braces or extra characters)
 
 [build.environment]
   NPM_CONFIG_PRODUCTION = "false"
